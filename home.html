@@ -216,6 +216,95 @@ color: azure;
             top: 10px;
         }
     }
+
+
+
+    .service-item {
+
+/* background-color: red; */
+/* position: relative; */
+animation-name: example;
+animation-duration: 9s;
+/* transition: transform 0.8s; */
+/* transform: rotateY(180deg); */
+perspective: 1000px;
+transform-style: preserve-3d;
+}
+
+@keyframes example {
+
+0% {
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    transition-property: inherit;
+    animation-duration: 9s;
+
+    transform: rotatex(10deg);
+    background-color: rgb(238, 200, 200);
+    border-bottom-right-radius: 35%;
+    /* border-bottom-style: dashed; */
+    top: 10px;
+    transform-style: preserve-3d;
+
+}
+
+20% {
+    transform: rotatey(30deg);
+    border-bottom-right-radius: 35%;
+    background-color: rgb(6, 236, 52);
+    top: 7px;
+}
+
+
+30% {
+
+    animation-duration: 9s;
+    transform: rotatex(40deg);
+    border-bottom-right-radius: 35%;
+    background-color: rgb(228, 109, 65);
+    top: 13px;
+}
+
+45% {
+    transform: rotateY(40deg);
+    border-bottom-right-radius: 35%;
+    background-color: rgb(6, 6, 6);
+    color: whitesmoke;
+    top: 10px;
+}
+
+55% {
+    transform: rotatex(23deg);
+    border-bottom-right-radius: 35%;
+    background-color: rgb(255, 255, 6);
+    top: 13px;
+}
+
+
+65% {
+    transform: rotateY(20deg);
+    border-bottom-right-radius: 35%;
+    background-color: rgb(75, 75, 233);
+    top: 14px;
+}
+
+
+75% {
+    border-bottom-right-radius: 35%;
+    transform: rotatex(300deg);
+    box-decoration-break: inherit;
+    background-color: rgb(10, 245, 10);
+    top: 18px;
+}
+
+100% {
+    animation-duration: 9s;
+    transform: rotateY(10deg);
+    border-bottom-right-radius: 35%;
+    background-color: rgb(226, 16, 226);
+    top: 10px;
+}
+}
 </style>
 
 <body>
